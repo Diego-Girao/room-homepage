@@ -1,4 +1,7 @@
 import React, { useState } from "react"
+import arrow from "/src/assets/images/icon-arrow.svg"
+import left from "/src/assets/images/icon-angle-left.svg"
+import right from "/src/assets/images/icon-angle-right.svg"
 
 const data = [
 	{
@@ -26,10 +29,77 @@ const data = [
 
 export default function Showroom() {
 	const [items] = useState(data)
+	const [slideIndex, setSlideIndex] = useState(1)
+
+	function nextSlide() {
+		if (slideIndex !== items.length) {
+			setSlideIndex(slideIndex + 1)
+		} else if (slideIndex === items.length) {
+			setSlideIndex(1)
+		}
+	}
+	function previousSlide() {
+		if (slideIndex !== 1) {
+			setSlideIndex(slideIndex - 1)
+		} else if (slideIndex === 1) {
+			setSlideIndex(items.length)
+		}
+	}
 
 	return (
 		<>
-			<h1>Showroom</h1>
+			<section>
+				{items.map((item, index) => (
+					<article
+						key={item.id}
+						className={
+							slideIndex === index + 1
+								? "grid grid-cols-1 lg:grid-cols-2 lg:place-items-center"
+								: "hidden"
+						}
+					>
+						<div className="relative">
+							<picture>
+								<source media="(min-width: 768px)" srcSet={item.desktop} />
+								<img src={item.mobile} alt={item.title} className="w-full" />
+							</picture>
+							<ul className="absolute -bottom-2 -right-32 flex">
+								<li>
+									<button
+										onClick={previousSlide}
+										className="bg-black hover:bg-neutral-700 transition-all duration-300"
+									>
+										<img src={left} alt="" className="p-6" />
+									</button>
+								</li>
+								<li>
+									<button
+										onClick={nextSlide}
+										className="bg-black hover:bg-neutral-700 transition-all duration-300"
+									>
+										<img src={right} alt="" className="p-6" />
+									</button>
+								</li>
+							</ul>
+						</div>
+
+						<div className="p-8 lg:p-12">
+							<h1 className="font-bold text-slate-900 text-3xl lg:text-5xl">
+								{item.title}
+							</h1>
+							<p className="text-slate-900 opacity-75 my-6">{item.desc}</p>
+							<button
+								className="flex items-center gap-4 font-semibold uppercase hover:opacity-75"
+								style={{
+									letterSpacing: "0.7rem",
+								}}
+							>
+								Shop now <img src={arrow} alt="" />
+							</button>
+						</div>
+					</article>
+				))}
+			</section>
 		</>
 	)
 }

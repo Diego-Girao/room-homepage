@@ -63,7 +63,7 @@ export default function Showroom() {
 								<source media="(min-width: 768px)" srcSet={item.desktop} />
 								<img src={item.mobile} alt={item.title} className="w-full" />
 							</picture>
-							<ul className="absolute -bottom-2 -right-32 flex">
+							<ul className="absolute -bottom-2 right-0 lg:-bottom-2 lg:-right-32 flex">
 								<li>
 									<button
 										onClick={previousSlide}

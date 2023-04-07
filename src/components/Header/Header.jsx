@@ -12,31 +12,38 @@ export default function Header() {
 				<div>
 					<img src={logo} alt="room logo" />
 				</div>
-
-				<nav className={`${isOpen ? "open w-full py-8" : ""}`}>
-					<ul className="flex items-center justify-center flex-wrap gap-5">
-						<li>
-							<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
-								home
-							</button>
-						</li>
-						<li>
-							<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
-								shop
-							</button>
-						</li>
-						<li>
-							<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
-								about
-							</button>
-						</li>
-						<li>
-							<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
-								contact
-							</button>
-						</li>
-					</ul>
-				</nav>
+				<div
+					className={`${
+						isOpen
+							? "bg-black opacity-75 absolute top-0 left-0 right-0 bottom-0 h-screen"
+							: "bg-transparent lg:bg-transparent"
+					}lg:bg-transparent lg:h-auto lg:relative`}
+				>
+					<nav className={`${isOpen ? "open w-full py-8" : ""}`}>
+						<ul className="flex items-center justify-center flex-wrap gap-5">
+							<li>
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+									home
+								</button>
+							</li>
+							<li>
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+									shop
+								</button>
+							</li>
+							<li>
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+									about
+								</button>
+							</li>
+							<li>
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+									contact
+								</button>
+							</li>
+						</ul>
+					</nav>
+				</div>
 				<div className="absolute left-8 top-8 z-20">
 					{isOpen ? (
 						<button onClick={() => setIsOpen(false)}>

@@ -9,11 +9,16 @@ export default function Footer() {
 				<article>
 					<img src={aboutDark} alt="" className="w-full" />
 				</article>
-				<article className="p-8 lg:p-12">
-					<h2 className="font-semibold text-2xl lg:text-3xl uppercase">
+				<article className="p-8 lg:p-9">
+					<h2
+						className="font-bold text-2xl lg:text-base uppercase"
+						style={{
+							letterSpacing: "0.4rem",
+						}}
+					>
 						About our furniture
 					</h2>
-					<p className="text-slate-900 opacity-75 my-6">
+					<p className="text-slate-900 opacity-75 mt-3 text-sm">
 						Our multifunctional collection blends design and function to suit
 						your individual taste. Make each room unique, or pick a cohesive
 						theme that best express your interests and what inspires you. Find

@@ -46,7 +46,7 @@ export default function Header() {
 						</ul>
 					</nav>
 				</div>
-				<div className="absolute left-8 top-8 z-20">
+				<div className="absolute left-8 top-8 z-20 lg:hidden">
 					{isOpen ? (
 						<button onClick={() => setIsOpen(false)}>
 							<img src={close} alt="" />

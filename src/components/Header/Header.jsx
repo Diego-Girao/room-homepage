@@ -8,9 +8,9 @@ export default function Header() {
 
 	return (
 		<>
-			<header className="absolute z-10 p-8 w-full flex items-center justify-center">
+			<header className="absolute z-10 p-8 w-full flex items-center justify-center lg:items-center lg:justify-start">
 				<div>
-					<img src={logo} alt="room logo" />
+					<img src={logo} alt="room logo" className="lg:mr-8" />
 				</div>
 				<div
 					className={`${
@@ -19,25 +19,27 @@ export default function Header() {
 							: "bg-transparent lg:bg-transparent"
 					}lg:bg-transparent lg:h-auto lg:relative`}
 				>
-					<nav className={`${isOpen ? "open w-full py-8" : ""}`}>
+					<nav
+						className={`${isOpen ? "open w-full py-8 lg:py-0 lg:w-auto" : ""}`}
+					>
 						<ul className="flex items-center justify-center flex-wrap gap-5">
 							<li>
-								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300 lg:text-white lg:hover:border-b-white">
 									home
 								</button>
 							</li>
 							<li>
-								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300 lg:text-white lg:hover:border-b-white">
 									shop
 								</button>
 							</li>
 							<li>
-								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300 lg:text-white lg:hover:border-b-white">
 									about
 								</button>
 							</li>
 							<li>
-								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300">
+								<button className="border-b-2 border-transparent hover:border-neutral-900 transition-all duration-300 lg:text-white lg:hover:border-b-white">
 									contact
 								</button>
 							</li>

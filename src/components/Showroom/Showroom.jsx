@@ -83,8 +83,8 @@ export default function Showroom() {
 							</ul>
 						</div>
 
-						<div className="p-8 lg:p-12">
-							<h1 className="font-bold text-slate-900 text-3xl lg:text-5xl">
+						<div className="p-8 lg:p-12 lg:mb-12">
+							<h1 className="font-bold text-slate-900 text-3xl lg:text-5xl lg:w-3/4">
 								{item.title}
 							</h1>
 							<p className="text-slate-900 opacity-75 my-6">{item.desc}</p>

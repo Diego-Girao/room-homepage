@@ -51,27 +51,15 @@ Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que esco
 
 <br>
 
-### **Screenshot - Desktop - Light mode**
+### **Screenshot - Desktop**
 
-<img width="500px" src="https://user-images.githubusercontent.com/70491871/225145780-0d800654-c55b-488d-89c2-2b7b77d29585.png" /> <img width="500px" src="https://user-images.githubusercontent.com/70491871/225146380-5c5f6e96-846e-463c-88b1-eecea55743fd.png" />
-
-<img width="500px" src="https://user-images.githubusercontent.com/70491871/225146631-f069e212-3ef3-43f8-98a6-6ec7134153a3.png" /> <img width="500px" src="https://user-images.githubusercontent.com/70491871/225146854-9d64da87-c81e-4d94-bf22-3c650afd49b7.png" />
-
-### **Screenshot - Desktop - Dark mode**
-
-<img width="500px" src="https://user-images.githubusercontent.com/70491871/225152461-aadca337-e51c-427d-b491-11b443c90671.png" /> <img width="500px" src="https://user-images.githubusercontent.com/70491871/225152640-a9a6f7ca-9a9b-4fa3-baf4-3fd3bc2f4513.png" />
-
-<img width="500px" src="https://user-images.githubusercontent.com/70491871/225152723-00bc752c-75e3-4ced-a038-5f3637164353.png" /> <img width="500px" src="https://user-images.githubusercontent.com/70491871/225152821-7634dc06-d104-4e2a-8d5b-96c332a917ca.png" />
+<img width="500px" src="https://user-images.githubusercontent.com/70491871/225145780-0d800654-c55b-488d-89c2-2b7b77d29585.png" />
 
 <br>
 
-### **Screenshot - Mobile - Light | Dark mode**
+### **Screenshot - Mobile**
 
-<img width="320px" src="https://user-images.githubusercontent.com/70491871/225159241-f98db004-39e2-46a7-a32a-b2353af5fa80.png" /> <img width="320px" src="https://user-images.githubusercontent.com/70491871/225159363-de9a0c1b-3758-484e-95cf-089a91b23316.png" />
-
-<img width="320px" src="https://user-images.githubusercontent.com/70491871/225159573-680bd55e-4043-4d5e-bbf9-ef75a7b74735.png" /> <img width="320px" src="https://user-images.githubusercontent.com/70491871/225159638-bb404fe2-3d9b-4f64-bded-04b3c65addcf.png" />
-
-<img width="320px" src="https://user-images.githubusercontent.com/70491871/225160153-783b482d-8c31-4d7d-817a-57edd9120c42.png" />
+<img width="320px" src="https://user-images.githubusercontent.com/70491871/225159241-f98db004-39e2-46a7-a32a-b2353af5fa80.png" />
 
 <br>
 
@@ -79,11 +67,11 @@ Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que esco
 
 - Selecionar o projeto a ser realizado
 
-- Após selecionar o projeto e ter alguns problemas com a stack inicial, foram 3 mudanças até a stack que foi utilizada, optei por utilizar _HTML5, Tailwind CSS, Javascript, React, Fetch_, sempre pensando em otimizar o desenvolvimento e aprendizado com a aplicação
+- Após selecionar o projeto e ter alguns problemas com a stack inicial, foram 3 mudanças até a stack que foi utilizada, optei por utilizar _HTML5, Tailwind CSS, Javascript, React, Vite_, sempre pensando em otimizar o desenvolvimento e aprendizado com a aplicação
 
 - Foram realizados alguns wireframes de como seria toda a estrutura do projeto
 
-- Iniciar o desenvolvimento do código na seguinte ordem, html e por último as funcionalidades javascript/tailwindcss + react + fetch
+- Iniciar o desenvolvimento do código na seguinte ordem, html e por último as funcionalidades javascript/tailwindcss + react/vite
 
 ### Stacks utilizadas
 
@@ -101,10 +89,10 @@ Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que esco
 
 - Aplicar o conceito de que menos é mais e que nem sempre precisamos componentizar tudo, criando apenas 1 componente e 1 page, optei dessa forma pois queria deixar aberto a opção de poder refatorar o código e componentizar o que fosse possível. Assim fixaria mais o processo de refatoração, componentização e controle do git com novas branchs, pull requests e merge.
 
-- Utilizei pela primeira vez para estilo o [Tailwind CSS](https://tailwindcss.com/), gostei muito por conta da liberdade e facilidade para esilizar ali diretamente o que precisa e sem interferir em outros estilos, a aplicação do tema claro/escuro foi interessante pois ele já possui essa fucionalidade integrada então basta usar a className correta, além da facilidade para a responsividade em que pode utilizar a padrão o personalizar como desejar e incluir em seu arquivo padrão de configuração `tailwind.config.js` feito isso basta você utilizar a className com o nome que foi criado, exemplo:
+- Utilizei pela primeira vez o [Tailwind CSS](https://tailwindcss.com/) como mobile first, gostei muito por conta da liberdade e facilidade para estilizar ali diretamente o que precisa e sem interferir em outros estilos, a aplicação do mobile first foi interessante e um pouco confuso no início por conta da forma de pensar e implementar no Tailwind que é diferente do que eu estava acostumado, além da facilidade para a responsividade e poder personalizar a class, conforme mostra o exemplo abaixo ou pode utilizar a padrão exemplo:
 
 ```Javascript
-<div className="container grid gap-16 mx-auto desktop:grid-cols-4 tablet:grid-cols-2 tablet:place-items-center mobile:grid-cols-1 mobile:place-items-center"></div>
+<ul className="absolute flex -bottom-2 right-0 lg:-bottom-[.5625rem] lg:-right-[7.8rem]">
 ```
 
 - Uma grande melhoria na gestão desse projeto ao utilizar o método pomodoro
@@ -114,8 +102,7 @@ Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que esco
 Algumas melhorias já estão mapeadas para próxima release, são as seguintes:
 
 - [ ] Refatorar o código.
-- [ ] Melhorar a componentização.
-- [ ] Novas Branchs.
+- [ ] Criar outras pages/components.
 
 ## Author - Diego Girão
 

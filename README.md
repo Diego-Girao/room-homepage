@@ -17,7 +17,7 @@
 
 <br>
 <img src="https://img.shields.io/website?down_color=tomato&down_message=offline&label=countries-rest-api&style=plastic&up_&up_message=online&url=https://countries-rest-api-fm.netlify.app/" alt="website badge" />
-<img src="https://img.shields.io/github/issues/Diego-Girao/rest-countries-api?color=cyan&style=plastic" alt="issue badge" />
+<img src="https://img.shields.io/github/issues/Diego-Girao/room-homepage?color=cyan&style=plastic" alt="issue badge" />
 <img src="https://img.shields.io/netlify/ebd5b801-c728-4b5c-aa34-4d6303a758ad?style=plastic" alt="netlify badge" />
 
 </div>
@@ -25,7 +25,7 @@
 
 <br>
 
-Este foi o sexto projeto da mentoria **Conquiste Sua Vaga**, o projeto que escolhi foi inspirado no desafio do Frontend Mentor que era a integração da [REST Countries API](https://restcountries.com/) e exibir alguns dados dos países na tela.
+Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que escolhi foi inspirado no desafio do Frontend Mentor [room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq).
 
 ## Sumário
 
@@ -43,13 +43,7 @@ Este foi o sexto projeto da mentoria **Conquiste Sua Vaga**, o projeto que escol
 
 ### O Desafio
 
-- O desafio era integrar o Frontend com a API e exibir alguns dados relacionados aos paises na tela principal e tambem o detalhe de cada país individualmente.
-
-- Utilizar a API [REST Countries API](https://restcountries.com/)
-
-- Ter um input de pesquisa
-
-- Ter a opção de filtrar por região
+- O desafio era criar uma landing page para testar as habilidades de layout e também um controle deslizante para adicionar uma camada JS para prática extra.
 
 - Ver o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
 
@@ -93,13 +87,13 @@ Este foi o sexto projeto da mentoria **Conquiste Sua Vaga**, o projeto que escol
 
 ### Stacks utilizadas
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=Plastic&logo=html5&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=Plastic&logo=tailwindcss&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg??style=plastic&logo=javascript) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=Plastic&logo=react&logoColor=%2361DAFB) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=Plastic&logo=git&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=Plastic&logo=netlify&logoColor=#00C7B7)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=Plastic&logo=html5&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=Plastic&logo=tailwindcss&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg??style=plastic&logo=javascript) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=Plastic&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%2320232a.svg?style=Plastic&logo=vite) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=Plastic&logo=git&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=Plastic&logo=netlify&logoColor=#00C7B7)
 
 - [x] HTML5 Semântico
 - [x] Tailwind CSS
 - [x] JavaScript
 - [x] React
-- [x] Fetch
+- [x] Vite
 
 ### O que aprendi
 

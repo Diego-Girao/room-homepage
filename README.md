@@ -3,22 +3,20 @@
 
 <br>
 
-# <strong>room</strong> Homepage Design - Frontend Mentor Challenge
+# <strong>room</strong> homepage - Frontend Mentor Challenge
 
-![light_mode](https://user-images.githubusercontent.com/70491871/225033183-39282a15-323e-4bf1-ba2c-6fcb3c99aea7.png)
-
-![dark_mode](https://user-images.githubusercontent.com/70491871/225033398-80c10e5a-5a5a-4043-b44d-b964921edffd.png)
+![homepage](https://user-images.githubusercontent.com/70491871/230792675-c332d6d5-b909-47be-8410-6c0c2f409b1f.png)
 
 </div>
 
 <br>
 <div align="center">
-<a href="https://countries-rest-api-fm.netlify.app/"><img width="310px" src="https://img.shields.io/badge/DEPLOY-https%3A%2F%2Fcountries--rest--api--fm.netlify.app%2F-00B37E?style=plastic&logo=netlify" /></a>
+<a href="https://roomhomepage-fm.netlify.app/"><img width="310px" src="https://img.shields.io/badge/DEPLOY-https%3A%2F%2Froomhomepage--fm.netlify.app%2F-00B37E?style=plastic&logo=netlify" /></a>
 
 <br>
-<img src="https://img.shields.io/website?down_color=tomato&down_message=offline&label=countries-rest-api&style=plastic&up_&up_message=online&url=https://countries-rest-api-fm.netlify.app/" alt="website badge" />
+<img src="https://img.shields.io/website?down_color=tomato&down_message=offline&label=roomhomepage-fm&style=plastic&up_&up_message=online&url=https://roomhomepage-fm.netlify.app/" alt="website badge" />
 <img src="https://img.shields.io/github/issues/Diego-Girao/room-homepage?color=cyan&style=plastic" alt="issue badge" />
-<img src="https://img.shields.io/netlify/ebd5b801-c728-4b5c-aa34-4d6303a758ad?style=plastic" alt="netlify badge" />
+<img src="https://img.shields.io/netlify/4ce32009-b969-4946-9441-38c134064a65?style=plastic" alt="netlify badge" />
 
 </div>
 <br>
@@ -53,13 +51,17 @@ Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que esco
 
 ### **Screenshot - Desktop**
 
-<img width="500px" src="https://user-images.githubusercontent.com/70491871/225145780-0d800654-c55b-488d-89c2-2b7b77d29585.png" />
+![Screenshot Desktop](https://user-images.githubusercontent.com/70491871/230792940-ffc78fe6-f6ca-4c88-bd09-9a7bd86af606.png)
 
 <br>
 
 ### **Screenshot - Mobile**
 
-<img width="320px" src="https://user-images.githubusercontent.com/70491871/225159241-f98db004-39e2-46a7-a32a-b2353af5fa80.png" />
+![screenshot mobile first](https://user-images.githubusercontent.com/70491871/230793062-0c8a02fe-f384-42b2-a561-e03637afd8bf.png)
+
+![screenshot mobile second](https://user-images.githubusercontent.com/70491871/230793059-553de235-6a39-4de0-874f-a10917216686.png)
+
+![screenshot mobile third](https://user-images.githubusercontent.com/70491871/230792984-3ff12e10-80a5-4487-9e4d-de18d489db48.png)
 
 <br>
 
@@ -85,11 +87,11 @@ Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que esco
 
 ### O que aprendi
 
-- Refatorar o código para que ele ficasse menor, mais fácil de enter e optei por utilizar o fetch, evitando assim instalar uma lib para consumo de uma API além disso uma forma de fixar melhor o entendimento do consumo de API pelo fetch.
+- Mobile First utilizando o TailwindCSS
 
-- Aplicar o conceito de que menos é mais e que nem sempre precisamos componentizar tudo, criando apenas 1 componente e 1 page, optei dessa forma pois queria deixar aberto a opção de poder refatorar o código e componentizar o que fosse possível. Assim fixaria mais o processo de refatoração, componentização e controle do git com novas branchs, pull requests e merge.
+- Componentização para melhor organização e estruturação do projeto.
 
-- Utilizei pela primeira vez o [Tailwind CSS](https://tailwindcss.com/) como mobile first, gostei muito por conta da liberdade e facilidade para estilizar ali diretamente o que precisa e sem interferir em outros estilos, a aplicação do mobile first foi interessante e um pouco confuso no início por conta da forma de pensar e implementar no Tailwind que é diferente do que eu estava acostumado, além da facilidade para a responsividade e poder personalizar a class, conforme mostra o exemplo abaixo ou pode utilizar a padrão exemplo:
+- Utilizei pela primeira vez o [Tailwind CSS](https://tailwindcss.com/) como <strong>mobile first</strong>, gostei muito por conta da liberdade e facilidade para estilizar ali diretamente o que precisa e sem interferir em outros estilos, a aplicação do mobile first foi interessante e um pouco confuso no início por conta da forma de pensar e implementar no Tailwind que é diferente do que eu estava acostumado, além da facilidade para a responsividade e poder personalizar a class, conforme mostra o exemplo abaixo ou pode utilizar a padrão exemplo:
 
 ```Javascript
 <ul className="absolute flex -bottom-2 right-0 lg:-bottom-[.5625rem] lg:-right-[7.8rem]">

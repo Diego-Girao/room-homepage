@@ -22,6 +22,8 @@
 
 <br>
 
+## Sobre
+
 Este foi o oitavo projeto da mentoria **Conquiste Sua Vaga**, o projeto que escolhi foi inspirado no desafio do Frontend Mentor [room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq).
 
 ## Sumário

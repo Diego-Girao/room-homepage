@@ -1,9 +1,8 @@
 <div align="center">
 <img width="100px" src="src/assets/images/logo.svg" />
-
 <br>
 
-# <strong>room</strong> homepage - Frontend Mentor Challenge
+## homepage - Frontend Mentor Challenge
 
 ![homepage](https://user-images.githubusercontent.com/70491871/230792675-c332d6d5-b909-47be-8410-6c0c2f409b1f.png)
 
